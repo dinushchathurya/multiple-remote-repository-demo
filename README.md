@@ -1,6 +1,6 @@
 ## Multiple Remote Repository Demo
 
-### To see current remote repository
+### To see the current remote repository
 
 ```bash
 git remote -v
@@ -11,3 +11,5 @@ git remote -v
 ```bash
 git remote set-url origin --add <remote_url>
 ```
+
+### Change config to pull from both remote repos
