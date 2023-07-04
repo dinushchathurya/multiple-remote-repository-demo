@@ -1,4 +1,4 @@
-## Push and Pull from multiple Remote Git Repositories Demo
+## Push and Pull from multiple remote Git Repositories Demo
 
 ### To see the current remote repository
 
