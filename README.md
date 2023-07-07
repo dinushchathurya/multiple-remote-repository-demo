@@ -22,7 +22,7 @@ From this:
 [remote "origin"]
   fetch = +refs/heads/*:refs/remotes/origin/*
   url = git@github.com:YOUR_USERNAME/YOUR_PROJECT.git ## git pull command will pull from this repo from GitHub
-  url = git@gitlab.org:YOUR_USERNAME/YOUR_PROJECT.git
+  url = git@gitlab.com:YOUR_USERNAME/YOUR_PROJECT.git
   url = git@bitbucket.org:YOUR_USERNAME/YOUR_PROJECT.git
 ```
 
@@ -45,7 +45,7 @@ Change `YOUR_PROJECT/.git/config` file like this:
   fetch = +refs/heads/*:refs/remotes/origin/*
   url = git@github.com:YOUR_USERNAME/YOUR_PROJECT.git
   url = git@bitbucket.org:YOUR_USERNAME/YOUR_PROJECT.git
-  url = git@gitlab.org:YOUR_USERNAME/YOUR_PROJECT.git
+  url = git@gitlab.com:YOUR_USERNAME/YOUR_PROJECT.git
 
 [remote "github"]
   url = git@github.com:YOUR_USERNAME/YOUR_PROJECT.git
@@ -54,7 +54,7 @@ Change `YOUR_PROJECT/.git/config` file like this:
   url = git@bitbucket.org:YOUR_USERNAME/YOUR_PROJECT.git
   fetch = +refs/heads/*:refs/remotes/bitbucket/*
 [remote "gitlab"]
-  url = git@gitlab.org:YOUR_USERNAME/YOUR_PROJECT.git
+  url = git@gitlab.com:YOUR_USERNAME/YOUR_PROJECT.git
   fetch = +refs/heads/*:refs/remotes/gitlab/*
 ```
 
