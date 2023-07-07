@@ -31,7 +31,7 @@ To this:
 ```bash
 [remote "origin"]
   fetch = +refs/heads/*:refs/remotes/origin/*
-  url = git@gitlab.org:YOUR_USERNAME/YOUR_PROJECT.git  ## git pull command will pull from this repo from gitlab
+  url = git@gitlab.com:YOUR_USERNAME/YOUR_PROJECT.git  ## git pull command will pull from this repo from gitlab
   url = git@github.com:YOUR_USERNAME/YOUR_PROJECT.git
   url = git@bitbucket.org:YOUR_USERNAME/YOUR_PROJECT.git
 ```
